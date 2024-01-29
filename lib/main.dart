@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/upload_vouchers.dart';
+import 'screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Taxman App',
-      home: UploadVouchersPage(),
+      home: LoginScreen(),
     );
   }
 }
